@@ -1,5 +1,13 @@
 #1. Print the numbers 1-20, but "Fizz" for multiples of 3, "Buzz" for multiples of 5 and "FizzBuzz" for multiples of both.
-
+for i in range(1, 21):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
 #2. Write is_palindrome(s) that ignores case and spaces ("Anna" → True, "Never odd or even" → True).
 
 #3. Given nums = [3, 4, 7, 10, 12], build a new list that contains only the even numbers, squared.
