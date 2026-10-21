@@ -24,3 +24,4 @@ def create_character(name, strength, intelligence, charisma):
         f"INT {full_dot * intelligence}{empty_dot * (10 - intelligence)}\n"
         f"CHA {full_dot * charisma}{empty_dot * (10 - charisma)}"
     )
+print(create_character("Aragorn", 3, 2, 2))
