@@ -1,4 +1,4 @@
-# Medical Data Validatior from FreeCodeCamp.org
+# Medical Data Validator from FreeCodeCamp.org
 import re
 
 medical_records = [
